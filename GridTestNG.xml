@@ -1,0 +1,20 @@
+
+
+<suite name ="My_suite">
+
+
+	<test name ="Grid"></test>
+	<parameter name="browser" value="firefox"></parameter>
+	
+		<classes>
+			<class name ="com.SEO.SEOgenaric" > </class>
+		</classes>		
+	
+	<test name ="Grid1"></test>
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name ="com.SEO.SEOgenaric" > </class>
+		</classes>		
+		
+		
+</suite>

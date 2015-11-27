@@ -1,0 +1,14 @@
+
+
+<suite name ="My_suite">
+
+
+	<test name ="SEO_Validation_Checked"></test>
+	<parameter name="urls" value="http://www.hsh.com"></parameter>
+	<parameter name="urls" value="http://www.google.com"></parameter>
+	
+		<classes>
+			<class name ="com.SEO.SEOgenaric" > </class>
+		</classes>		
+	
+</suite>
