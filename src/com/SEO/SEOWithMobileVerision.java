@@ -1,7 +1,7 @@
 package com.SEO;
 
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeTest;SEOWithMobileVerision.java
 import org.testng.annotations.DataProvider;
 import java.util.Iterator;
 import java.util.List;
