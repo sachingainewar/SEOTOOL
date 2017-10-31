@@ -52,10 +52,10 @@ public class SEOgenaric extends SEOcommonFunction{
 	        this.pagUrl = pagUrl;
 	    }
 	    
-	
+// Test Urls 	
 	@DataProvider 
 	public Object[][] getPageUrls() throws Exception  { 
-	return new Object[][]{ { "http://www.google.com" }, { "http://www.yahoo.com" }, { "http://www.hsh.com" } }; 
+	return new Object[][]{ { "http://www.google.com" }, { "http://www.yahoo.com" }, { "http://www.refiy.com" } }; 
 	}
 
 
