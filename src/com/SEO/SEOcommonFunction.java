@@ -40,15 +40,7 @@ public class SEOcommonFunction {
 	    protected SEOcommonFunction() {
 		
 	    }
-
-/*	    public static void main(String args[]){
-	   	        Map<String, String > studentList = new HashMap<String, String>();
-	    	        studentList.put("Magneto","90");
-	    	        studentList.put("Wolverine","60");
-	    	        studentList.put("ProfX","100");
-	    	        writeStudentsListToExcel( studentList);
-	    	    }
-	    	*/
+// Read data from Excel 
 	    public static Map<Integer, Object[]> writeListToExcel(Map<Integer, Object[]> Results){
 	    	        // Using XSSF for xlsx format, for xls use HSSF
 	    	        Workbook workbook = new XSSFWorkbook();
