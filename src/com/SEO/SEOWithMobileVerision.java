@@ -22,6 +22,7 @@ import com.SHandLeadFormVerification.LandingPage;
 import com.utility.Util;
 
 public class SEOWithMobileVerision extends BaseMethod{
+//Created firefox profile and Open firefox browsers in mobile version.	
 	@BeforeTest
 	public void BrowserLaunch() throws Throwable{
 		initialization();
@@ -31,6 +32,7 @@ public class SEOWithMobileVerision extends BaseMethod{
 		//driver = new FirefoxDriver();
 	}
 
+	
 	@Test(dataProvider = "getTestData")
 	public void SEOAudit(String url) throws Throwable{
 		driver.navigate().to(url);
@@ -45,7 +47,7 @@ public class SEOWithMobileVerision extends BaseMethod{
 		
 		// Get Discription 
 		
-	//	System.out.println(driver.findElement(By.xpath("//meta[@name='description']")).getAttribute("content"));
+		System.out.println(driver.findElement(By.xpath("//meta[@name='description']")).getAttribute("content"));
 		
 	}
 	
@@ -66,6 +68,7 @@ public class SEOWithMobileVerision extends BaseMethod{
 		skip= false;
 		fail=false;*/
 	}
+// Get the testData from Excel file 	
 	@DataProvider
 	public  Object[][] getTestData(){
 		return Util.getData(suiteXls, this.getClass().getSimpleName());
