@@ -17,10 +17,7 @@ public class SEOSuiteBase{
 			return new Object[][]
 				{
 					 { 1,"http://www.hsh.com" },
-					 
-		                {2, "http://www.google.com" }
-		 
-		              
+			                {2, "http://www.google.com" }
 				};
 			}
 
@@ -32,15 +29,7 @@ public class SEOSuiteBase{
 		
 		
 // check if the suite execution has to be skiped 
-	//@BeforeSuite(dataProvider = "getTestUrls")
-	
-	
-			
-	/*		public void testPagesOpen(int count, String url)throws Throwable{
-				driver = new FirefoxDriver();
-		
-				driver.get(url);
-			{*/
+	@BeforeSuite(dataProvider = "getTestUrls")
 			//APP_LOGS.debug("Runmode of HSH Suite set to no. So skiping all tests in Suite HSH");
 			throw new SkipException ("Runmode of HSH Suite  set to no. So skiping all tests in Suite HSH");
 			}
