@@ -4,7 +4,7 @@
 
 
 	<test name ="SEO_Validation_Checked"></test>
-	<parameter name="urls" value="http://www.hsh.com"></parameter>
+	<parameter name="urls" value="http://www.hsyhh.com"></parameter>
 	<parameter name="urls" value="http://www.google.com"></parameter>
 	
 		<classes>
